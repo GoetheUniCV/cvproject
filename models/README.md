@@ -1,4 +1,4 @@
-'''
+```
 model = tf.keras.models.Sequential([ # Luis
   layers.Conv2D(64, 5, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
@@ -80,4 +80,4 @@ model = tf.keras.models.Sequential([
   layers.Dropout(0.15),
   layers.Dense(3, activation= 'softmax')
 ])
-'''
+```
