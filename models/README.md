@@ -1,5 +1,7 @@
+# Models:
+
 ```
-model = tf.keras.models.Sequential([ # Luis
+model_1 = tf.keras.models.Sequential([ # Luis
   layers.Conv2D(64, 5, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
   layers.Flatten(),
@@ -7,7 +9,7 @@ model = tf.keras.models.Sequential([ # Luis
   layers.Dense(3, activation= 'softmax')
 ])
 
-model = tf.keras.models.Sequential([ # Luis
+model_2 = tf.keras.models.Sequential([ # Luis
   layers.Conv2D(64, 3, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
   layers.Flatten(),
@@ -15,7 +17,7 @@ model = tf.keras.models.Sequential([ # Luis
   layers.Dense(3, activation= 'softmax')
 ])
 
-model = tf.keras.models.Sequential([
+model_3 = tf.keras.models.Sequential([
   layers.Conv2D(128, x, activation='relu'), # number of filters, kernel size
   layers.MaxPooling2D(),
   layers.Flatten(),
@@ -23,7 +25,7 @@ model = tf.keras.models.Sequential([
   layers.Dense(3, activation= 'softmax')
 ])
 
-model = tf.keras.models.Sequential([
+model_4 = tf.keras.models.Sequential([
   layers.Conv2D(128, 3, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
   layers.Conv2D(64, 3, activation='relu'),
@@ -35,7 +37,7 @@ model = tf.keras.models.Sequential([
   layers.Dense(3, activation= 'softmax')
 ])
 
-model = tf.keras.models.Sequential([
+model_5 = tf.keras.models.Sequential([
   layers.BatchNormalization(),
   layers.Conv2D(32, 3, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
@@ -48,7 +50,7 @@ model = tf.keras.models.Sequential([
   layers.Dense(3, activation= 'softmax')
 ])
 
-model = tf.keras.models.Sequential([
+model_6 = tf.keras.models.Sequential([
   layers.BatchNormalization(),
   layers.Conv2D(32, 3, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
@@ -64,7 +66,7 @@ model = tf.keras.models.Sequential([
   layers.Dense(3, activation= 'softmax')
 ])
 
-model = tf.keras.models.Sequential([
+model_7 = tf.keras.models.Sequential([
   data_augmentation,
   layers.BatchNormalization(),
   layers.Conv2D(32, 3, activation='relu'), # filters, kernel size
