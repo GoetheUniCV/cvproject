@@ -1,7 +1,7 @@
 # Models:
 
 ```
-model_1 = tf.keras.models.Sequential([ # Luis
+model_1 = tf.keras.models.Sequential([
   layers.Conv2D(64, 5, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
   layers.Flatten(),
@@ -9,7 +9,7 @@ model_1 = tf.keras.models.Sequential([ # Luis
   layers.Dense(3, activation= 'softmax')
 ])
 
-model_2 = tf.keras.models.Sequential([ # Luis
+model_2 = tf.keras.models.Sequential([
   layers.Conv2D(64, 3, activation='relu'), # filters, kernel size
   layers.MaxPooling2D(),
   layers.Flatten(),
