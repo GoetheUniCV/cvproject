@@ -5,6 +5,17 @@
 - visualize classification with Grad-CAM and LIME
 
 ## Model Training and Evaluation
+
+Folder Structure for model training:
+
+MyDrive  
+└── cvproject  
+    ├── COVID-10 Radiography Database  
+    │   ├── COVID-19  
+    │   ├── NORMAL  
+    │   └── Viral Pneumonia  
+    └── training_results  
+
 Run **cv_model_training.ipynb** to...
 - create subfolder in *training_results* folder to store training results
 - save trained model (.h5) to subfolder
