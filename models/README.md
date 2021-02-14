@@ -1,4 +1,7 @@
-# Models:
+# Models
+
+This directory contains the training of our models.
+
 
 ```
 model_1 = tf.keras.models.Sequential([
