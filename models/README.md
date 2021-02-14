@@ -3,6 +3,9 @@
 This directory contains the training of our models.
 
 
+TODO: Add latest models to the model list.
+
+### Model list
 ```
 model_1 = tf.keras.models.Sequential([
   layers.Conv2D(64, 5, activation='relu'), # filters, kernel size
